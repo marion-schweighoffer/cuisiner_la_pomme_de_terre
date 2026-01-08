@@ -1,0 +1,93 @@
+<html lang="fr">
+
+<head>
+    <meta charset="utf8"> <!--accent possible!-->
+    <link rel="stylesheet" href="style.css" type="text/css"> <!--lien style css!-->
+
+    <!-- Retros !-->
+    <link rel="stylesheet" href="https://use.typekit.net/zsu8ywc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Poppins!-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="js.js" defer></script> <!--lien style JS!-->
+</head>
+
+<body>
+
+    <div class="popup-overlay" id="welcomePopup" aria-hidden="false">
+    <div class="popup" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+         <button class="popup-close" type="button" aria-label="Fermer la fenêtre" data-close>
+        X
+      </button>
+      
+      <p id="popupTitle" class="popup-title">BIENVENUE !</p>
+      <p class="popup-text">
+        Vous vous trouvez actuellement sur un site de recettes !
+        <br><br> Bonne cuisine ! </p>
+    </div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li> <a href="#accueil"> Accueil </a></li>
+            <li> <a href="#recettes"> Recettes </a></li>
+            <li> <a href="#savoirs"> En savoir + </a></li>
+        </ul>
+    </nav>
+
+
+<section id="accueil">
+    <img class="pdt" src="pdt.png" alt="image de pomme de terre en bitmap" >
+    <h1> Cuisiner</h1>
+    <h2>la pomme de terre</h2>
+</section>
+
+<section id="recettes">
+
+        <h6>Découvrez les recettes !</h6>
+
+<div class="colonne-image">
+    <a href="page2.html"> <img class="opacity1" src="frites.png" alt="photo de frites"/> </a>
+    <a href="page3.html"> <img class="opacity1" src="puree.png" alt="photo de purée"/> </a>
+    <a href="page4.html"> <img class="opacity1" src="gratin.png" alt="photo de gratin"/></a>
+</div>
+
+<div class="colonne-recette">
+    <a href="page2.html"> <p class="titre">Frites</p> </a>
+    <a href="page3.html"> <p class="titre">Purée</p> </a>
+    <a href="page4.html"> <p class="titre">Gratin</p> </a>
+</div>
+
+</section>
+
+<section id="savoirs">
+    <h4>En savoir plus !</h4>
+
+<div class="croissance">
+
+    <img src="patate.gif">
+
+    <ol class="gif">
+    <h5>Cycle de croissance <br> de la pomme de terre</h5>
+    <li>Plantation du tubercule ou d’un morceau germé</li>
+    <li>Germination : sortie des premières pousses
+    <li>Développement des racines et des tiges feuillées</li>
+    <li>Tubérisation : formation des nouvelles pommes de terre sous terre</li>
+    <li>Grossissement des tubercules</li>
+    <li>Maturation : jaunissement du feuillage</li>
+    <li>Récolte des tubercules</li>
+    </ol>
+
+ </div>
+
+</section>
+
+
+</body>
+
+</html>
